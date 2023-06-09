@@ -3,9 +3,9 @@ import Layout from '../layouts/Layout.astro';
 ---
 <Layout>
     <main class="">
-		<div class="flex -z-10 bg-cover object-center min-w-full bg-center bg-no-repeat w-full pt-24" style="background-image:url('/iedcdesign/img/AdobeStock_582485671.jpeg')">
+		<div class="flex -z-10 bg-cover object-center min-w-full bg-center bg-no-repeat w-full md:pt-24 pt-36" style="background-image:url('/iedcdesign/img/AdobeStock_582485671.jpeg')">
 		<div class="text-center py-7 container">
-			<h1 class="md:text-8xl uppercase font-extrabold text-blue-900 text-5xl">
+			<h1 class="md:text-8xl uppercase  font-extrabold text-blue-900 text-5xl">
                 Accreditation
 			</h1>
 
@@ -17,9 +17,9 @@ import Layout from '../layouts/Layout.astro';
 
 
    
-   <!--<section class="py-24 px-12">
-        <div class="flex md:flex-row mx-auto flex col ">
-            <div class="flex md:w-1/2 w-full  mx-auto h-96">
+   <!--<section class="md:py-24 md:px-12 px-5 py-5">
+        <div class="flex md:flex-row mx-auto flex-col ">
+            <div class="flex md:w-1/2 min-w-screen  mx-auto h-96">
                   
                   <img src="/iedcdesign/img/iedc_web/Accreditation Result.jpg" class="object-center">
             </div>
@@ -35,9 +35,9 @@ import Layout from '../layouts/Layout.astro';
     </section> -->
 
 
- <section class="py-24 px-12 ">
-			<div class=" md:flex-row mx-auto flex col ">
-				<div class="flex md:w-1/3 w-full mx-auto">
+    <section class="py-24 px-12 ">
+			<div class="flex md:flex-row  mx-auto flex-col ">
+				<div class="flex  md:w-1/3 w-full mx-auto">
 					<img src="/iedcdesign/img/iedc_web/Accreditation Result.jpg" class=" rounded-3xl object-center h-96 mx-auto">
 				</div>
 				<div class=" md:w-2/3 w-full  my-auto">
@@ -49,63 +49,67 @@ import Layout from '../layouts/Layout.astro';
 					<p class=" text-orange-500 text-center  ">Congrats to the IEDCs that made it to the top.</p>
 				</div>
 			</div>
-		</section>
- <section>
-    <div class="px-14 text-justify text-lg">
-                <p>The Innovation and Entrepreneurship Development Centre (IEDC) is one of the flagship programmes of KSUM that has been recognized that Implementation of IEDC Programmes has laid out the robust foundation for Kerala Startup Ecosystem. Now we are a strength of 280+ Institutions that evolved over the years in its own unique way and we are glad to inform you about the Accreditation of IEDCs in Colleges - Kerala Ranking Framework from the Period 1st April 2019 - 31th March 2021.
-                </p>
-                <p class="py-5">The Institution Prerequisites for the accreditation process are as follows
-                </p>
-                <ol class=" px-10">
-                <li>-Registration in the Innovate Portal</li>
-                <li>-Min 50% students onboarded in the Portal</li>
-                <li>-Will be analysing the data based on the inputs available in the INNOVATE Portal from the period 1st April 2019 - 31th March 2021</li>
-                <li>-All the activities in the IEDCs are captured in the INNOVATE portal by the Nodal Officer/Institution Nominated Individual</li>
-                </ol>
-    </div> 
+		
+    </section>
 
-     <div class="px-14  text-justify text-lg" style="display:none" id="div_id">
+ <section class="py-24 px-12">
+    <div class="  md:text-xl text-justify text-lg">
+        <p>The Innovation and Entrepreneurship Development Centre (IEDC) is one of the flagship programmes of KSUM that has been recognized that Implementation of IEDC Programmes has laid out the robust foundation for Kerala Startup Ecosystem. Now we are a strength of 280+ Institutions that evolved over the years in its own unique way and we are glad to inform you about the Accreditation of IEDCs in Colleges - Kerala Ranking Framework from the Period 1st April 2019 - 31th March 2021.
+            </p>
+        <p class="py-5">The Institution Prerequisites for the accreditation process are as follows
+            </p>
+        <ul class="list-disc list-outside">
+            <li>Registration in the Innovate Portal</li>
+            <li>Min 50% students onboarded in the Portal</li>
+            <li>Will be analysing the data based on the inputs available in the INNOVATE Portal from the period 1st April 2019 - 31th March 2021</li>
+            <li>All the activities in the IEDCs are captured in the INNOVATE portal by the Nodal Officer/Institution Nominated Individual</li>
+         </ul>
+     </div> 
+
+     <div class="md:px-14 px-10  text-justify md:text-lg" style="display:none" id="div_id">
          <h1 class=" text-2xl font-bold pt-5 text-blue-900 ">Eligibility for the Accreditation process</h1>
          <p class="">All the IEDCs under KSUM joined on or before 30-08-2020 will be eligible for the accreditation process</p>
          <h1 class="font-bold text-2xl pt-5 text-blue-900 ">Period of Consideration</h1>
-         <ul class="px-10">
-         <li>-1st April 2019 - 31st March 2020</li>
-         <li>-1st April 2020 - 31st March 202</li>
+         <ul class="list-disc list-outside">
+            <li>1st April 2019 - 31st March 2020</li>
+            <li>1st April 2020 - 31st March 202</li>
          </ul>
          <p>Financial year wise details from the Institution to be updated in the portal and accreditation process will be done for both the financial years together follow-on a single accreditation result.</p>
      
          <p class="pt-5">Evaluation will be done under these parameters considering how the IEDC has evolved/doing activities/actions in promoting the entrepreneurship ecosystem.</p>
-         <ul class="px-10">
-            <li>1.Evangelization of Entrepreneurship</li>
-            <li>2.Promotion of Innovation</li>
-            <li>3.Supporting Incubation and Business Development</li>
-            <li>4.Alignment with Institutional Mechanisms</li>
-            <li>5.Strengthening of Ecosystem</li>
+         <ul class="list-decimal list-outside px-24">
+            <li>Evangelization of Entrepreneurship</li>
+            <li>Promotion of Innovation</li>
+            <li>Supporting Incubation and Business Development</li>
+            <li>Alignment with Institutional Mechanisms</li>
+            <li>Strengthening of Ecosystem</li>
          </ul>
 
          <h1 class="font-bold text-2xl pt-5 text-blue-900">Timeline</h1>
-         <ul class="px-10">
-         <li>-Period of Consideration - 1st April 2019 - 31st March 2020 & 1st April 2020 - 31st March 2021</li>
-         <li>-Accreditation Intimation Date - 9th Sept 2021 </li>      
-         <li><p class="text-red-700">-Last date of entries in portal - 6th October 2021</p></li>
+         <ul class="list-disc list-outside">
+                    <li>Period of Consideration - 1st April 2019 - 31st March 2020 & 1st April 2020 - 31st March 2021</li>
+                    <li>Accreditation Intimation Date - 9th Sept 2021 </li>      
+                    <li><p class="text-red-700">Last date of entries in portal - 6th October 2021</p></li>
              </ul>
 
          <p class="text-blue-700 italic py-5">Kindly Note: The Institution can be ready with all the necessary details in the portal and the accreditation will be done based on the information available in the INNOVATE portal only.</p>
         <p>The accreditation application link will be open after 6th October so that you will be able to submit the details.</p>
      
 
-      </div class="" >
-      <p class="mb-10 px-10 mt-3 rounded-xl modal-open inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-orange-500 border border-gray-200  hover:bg-gray-200 hover:text-black" onclick="myfunction()" id="btn">Read More</p>
+      </div >
+      <p class="mb-10 px-10 mt-3 rounded-xl modal-open inline-flex items-center px-4 py-2 text-sm font-medium float-right text-white bg-orange-500 border border-gray-200  hover:bg-gray-200 hover:text-black" onclick="myfunction()" id="btn">Read More</p>
   </section> 
+
+
 
 
  
     
-    <div class=" mb-24 flex flex-row bg-cover w-1/4 space-x-5 object-center text-center text-2xl  px-10   min-w-full bg-center bg-no-repeat w-full py-20" style="background-image:url('/iedcdesign/img/iedc_web/image2.png')">
-    <div class="bg-orange-600 text-white py-5 px-2 hover:bg-gray-700 border-l-2 border-gray-900"><a href="https://drive.google.com/file/d/1tKAuiiAQ4qUk1ehRw7jisuUkg5Sdf0Hu/view" target="_blank">Accreditation Document</a></div>
-    <div class=" bg-orange-600 text-white py-2 px-2 hover:bg-gray-700 border-l-2 border-gray-900"><a href="https://drive.google.com/file/d/1jNLsI89VFruP3B4LJVvRm07Qw0v9_01c/view"target="_blank">List of Collages participated in the Accreditation process(Phase-I)</a></div>
-    <div class="bg-orange-600 text-white py-2 px-2 hover:bg-gray-700 border-l-2 border-gray-900" ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdWcG_1S9hfxglZXCFcWQKXRX_Bq2z2m8TQ1-RTqCM3CG_L2A/closedform" target="_blank">Accreditation Process-Application Form-Phase-II</a></div>
-    <div class="bg-orange-600 text-white py-2 px-2 hover:bg-gray-700 border-l-2 border-gray-900 "><a href="https://drive.google.com/file/d/1YBHXkbJKoL_379PbIabpZ2Kc6un8wwfB/view" target="_blank">List of Collages participated in the Accreditation process(Phase-II)</a></div>
+    <div class="md:mb-24 flex md:flex-row flex-col md:space-y-0 space-y-5  space-x-2   text-center text-2xl  px-12" >
+            <div class="hover:bg-orange-600 text-white py-10 px-7 flex md:w-1/4 w-full  bg-gray-700 border-l-2 border-gray-900" ><a  href="https://drive.google.com/file/d/1tKAuiiAQ4qUk1ehRw7jisuUkg5Sdf0Hu/view" target="_blank">Accreditation Document</a></div>
+            <div class=" hover:bg-orange-600 text-white py-2 px-2  flex md:w-1/4 w-full bg-gray-700 border-l-2 border-gray-900" ><a href="https://drive.google.com/file/d/1jNLsI89VFruP3B4LJVvRm07Qw0v9_01c/view"target="_blank">List of Collages participated in the Accreditation process(Phase-I)</a></div>
+            <div class="hover:bg-orange-600 text-white py-2 px-2 flex md:w-1/4 w-full bg-gray-700 border-l-2 border-gray-900" ><a href="https://docs.google.com/forms/d/e/1FAIpQLSdWcG_1S9hfxglZXCFcWQKXRX_Bq2z2m8TQ1-RTqCM3CG_L2A/closedform" target="_blank">Accreditation Process-Application Form-Phase-II</a></div>
+            <div class="hover:bg-orange-600 text-white py-2 px-2 flex md:w-1/4 w-full bg-gray-700 border-l-2 border-gray-900 " ><a href="https://drive.google.com/file/d/1YBHXkbJKoL_379PbIabpZ2Kc6un8wwfB/view" target="_blank">List of Collages participated in the Accreditation process(Phase-II)</a></div>
     </div>
 </Layout>
 
